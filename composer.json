@@ -1,0 +1,24 @@
+{
+    "name": "theascii/wp-nonce-with-oop",
+    "description": "Wordpress Nonce functionality OOP Implimentation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "THEASCII",
+            "email": "prismathemecps@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "5.7.x-dev"
+    }
+}
