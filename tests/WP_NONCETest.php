@@ -21,7 +21,9 @@ class WP_NONCETest extends PHPUnit_Framework_TestCase
         $this->assertArrayHasKey( 'name',$nonce );
         $this->assertArrayHasKey( 'value',$nonce );
     }
-    //verifying if the contentes are coming from curent site
+    /*
+    verify if the contentes are coming from curent site
+    */
     public function validateContentTest()
     {
         $nonceObject = new WP_NONCE();
