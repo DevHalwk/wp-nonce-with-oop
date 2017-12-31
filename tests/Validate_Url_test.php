@@ -4,7 +4,9 @@ use src\wp_nonce_with_OOP\Classes\Validate_Url;
 
 class Validate_Url_test extends PHPUnit_Framework_TestCase
 {
-    //asking for a confirmation for the task
+    /*
+    task confirmation 
+    */
     public function ConfirmationMessageTest()
     {
         $obj = new WP_Confirm_Message_Validate_Url();
@@ -16,15 +18,18 @@ class Validate_Url_test extends PHPUnit_Framework_TestCase
     public function RetrievedNonceUrlTest()
     {
         
-         // Verify the retrieved Url
+         /* 
+         Verify the retrieved Url
+         */
          
     }
 
 
     public function verifyNonceTest()
     {
-        
-         // Verify the newly created Nonce.
+         /* 
+          Verify the newly created Nonce.
+         */
         
     }
 }
